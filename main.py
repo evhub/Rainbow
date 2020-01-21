@@ -11,10 +11,10 @@ import numpy as np
 import torch
 from tqdm import trange
 
-from agent import Agent
-from env import Env
-from memory import ReplayMemory
-from test import test
+from Rainbow.agent import Agent
+from Rainbow.env import Env
+from Rainbow.memory import ReplayMemory
+from Rainbow.test import test
 
 
 # Note that hyperparameters may originally be reported in ATARI game frames instead of agent steps

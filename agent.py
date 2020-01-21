@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from torch import optim
 
-from model import DQN
+from Rainbow.model import DQN
 
 
 class Agent():

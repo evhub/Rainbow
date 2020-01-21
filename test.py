@@ -6,7 +6,7 @@ from plotly.graph_objs import Scatter
 from plotly.graph_objs.scatter import Line
 import torch
 
-from env import Env
+from Rainbow.env import Env
 
 
 # Test DQN
