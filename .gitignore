@@ -88,8 +88,11 @@ ENV/
 # Rope project settings
 .ropeproject
 
-
 # Saved models
 *.pth
+
 # Plots
 *.html
+
+# Saved memory
+*.bz2
